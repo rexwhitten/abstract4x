@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A2A2A91-55CB-470F-BD96-71F8221A3AC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Space.Api.Generators</RootNamespace>
+    <AssemblyName>Space.Api.Generators</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Asteroid\AsteroidGenerator.cs" />
+    <Compile Include="Asteroid\AsteroidGeneratorOptions.cs" />
+    <Compile Include="Asteroid\AsteroidModel.cs" />
+    <Compile Include="Atmosphere\AtmosphereGenerator.cs" />
+    <Compile Include="Atmosphere\AtmosphereGeneratorOptions.cs" />
+    <Compile Include="Atmosphere\AtmosphereModel.cs" />
+    <Compile Include="BaseGenerator.cs" />
+    <Compile Include="BaseGeneratorOptions.cs" />
+    <Compile Include="BaseModel.cs" />
+    <Compile Include="BaseSizeType.cs" />
+    <Compile Include="BaseVector.cs" />
+    <Compile Include="Bio\BiologicalGenerator.cs" />
+    <Compile Include="Bio\BiologicalGeneratorOptions.cs" />
+    <Compile Include="Bio\BiologicalModel.cs" />
+    <Compile Include="Civilization\CivilizationGenerator.cs" />
+    <Compile Include="Civilization\CivilizationGeneratorOptions.cs" />
+    <Compile Include="Civilization\CivilizationModel.cs" />
+    <Compile Include="Comet\CometGenerator.cs" />
+    <Compile Include="Comet\CometGeneratorOptions.cs" />
+    <Compile Include="Comet\CometModel.cs" />
+    <Compile Include="Drake.cs" />
+    <Compile Include="Galaxy\GalaxyGenerator.cs" />
+    <Compile Include="Galaxy\GalaxyGeneratorOptions.cs" />
+    <Compile Include="Galaxy\GalaxyModel.cs" />
+    <Compile Include="GenerationOptions.cs" />
+    <Compile Include="Moon\MoonGenerator.cs" />
+    <Compile Include="Moon\MoonGeneratorOptions.cs" />
+    <Compile Include="Moon\MoonModel.cs" />
+    <Compile Include="Planet\PlanetGenerator.cs" />
+    <Compile Include="Planet\PlanetGeneratorOptions.cs" />
+    <Compile Include="Planet\PlanetModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Qubit\QubitGenerator.cs" />
+    <Compile Include="Qubit\QubitGeneratorOptions.cs" />
+    <Compile Include="Qubit\QubitModel.cs" />
+    <Compile Include="RandomExtensions.cs" />
+    <Compile Include="Star\StarGenerator.cs" />
+    <Compile Include="Star\StarGeneratorOptions.cs" />
+    <Compile Include="Star\StarModel.cs" />
+    <Compile Include="SurfaceArea\SurfaceAreaTerrainModel.cs" />
+    <Compile Include="SurfaceArea\SurfaceAreaGenerator.cs" />
+    <Compile Include="SurfaceArea\SurfaceAreaGeneratorOptions.cs" />
+    <Compile Include="SurfaceArea\SurfaceAreaModel.cs" />
+    <Compile Include="SurfaceArea\SurfaceAreaWeatherModel.cs" />
+    <Compile Include="SurfaceArea\SurfaceGridModel.cs" />
+    <Compile Include="TechTree\TechTreeModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Space.Api.Core\Space.Api.Core.csproj">
+      <Project>{6ee509e5-ba30-4621-bd01-78da38646f96}</Project>
+      <Name>Space.Api.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

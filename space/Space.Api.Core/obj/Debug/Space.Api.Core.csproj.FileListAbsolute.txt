@@ -1,0 +1,5 @@
+E:\github\space_game\space\Space.Api.Core\bin\Debug\Space.Api.Core.dll
+E:\github\space_game\space\Space.Api.Core\bin\Debug\Space.Api.Core.pdb
+E:\github\space_game\space\Space.Api.Core\obj\Debug\Space.Api.Core.csprojResolveAssemblyReference.cache
+E:\github\space_game\space\Space.Api.Core\obj\Debug\Space.Api.Core.dll
+E:\github\space_game\space\Space.Api.Core\obj\Debug\Space.Api.Core.pdb

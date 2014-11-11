@@ -1,0 +1,11 @@
+E:\github\space_game\space\Space.Api.Generators\bin\Debug\Space.Api.Generators.dll
+E:\github\space_game\space\Space.Api.Generators\bin\Debug\Space.Api.Generators.pdb
+E:\github\space_game\space\Space.Api.Generators\obj\Debug\Space.Api.Generators.dll
+E:\github\space_game\space\Space.Api.Generators\obj\Debug\Space.Api.Generators.pdb
+E:\github\space_game\space\Space.Api.Generators\bin\Debug\Space.Api.Core.dll
+E:\github\space_game\space\Space.Api.Generators\bin\Debug\Space.Data.Services.dll
+E:\github\space_game\space\Space.Api.Generators\bin\Debug\Space.Data.Space.dll
+E:\github\space_game\space\Space.Api.Generators\bin\Debug\Space.Api.Core.pdb
+E:\github\space_game\space\Space.Api.Generators\bin\Debug\Space.Data.Services.pdb
+E:\github\space_game\space\Space.Api.Generators\bin\Debug\Space.Data.Space.pdb
+E:\github\space_game\space\Space.Api.Generators\obj\Debug\Space.Api.Generators.csprojResolveAssemblyReference.cache
